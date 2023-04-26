@@ -1,22 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html style="width: 100%;
+height: 100%;
+margin: 0px;
+padding: 0px;
+overflow-x: hidden;" lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content=" width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.17/tailwind.min.css" />
     <title>Beauty services at Home ~ GlamHub</title>
 </head>
 
-<body>
+<body style="width: 100%;
+height: 100%;
+margin: 0px;
+padding: 0px;
+overflow-x: hidden;">
+
     <!-- Navigation -->
-    <nav class="bg-white py-4 shadow-2xl ">
+    <nav class="bg-white md:py-4 shadow-2xl ">
         <div class="container mx-6 flex justify-between items-center">
-            <h1 class="text-xl font-bold text-4xl ">GlamHub</h1>
-            <ul class="flex space-x-8 mt-4">
-                <li><a id="search" href="#"><span class="mb-3">
+            <h1 class="text-3xl font-bold md:text-4xl ">GlamHub</h1>
+            <ul class=" invisible md:visible flex space-x-4 md:space-x-8 mt-4">
+                <li class="  "><a id="search" href="#"><span class="mb-3">
                             <div class="relative mb-4 flex w-full flex-wrap items-stretch">
                                 <input type="search"
                                     class="relative m-0 -mr-0.5 block w-[1px] min-w-0 flex-auto rounded-l border border-solid border-neutral-300 bg-transparent bg-clip-padding px-3 py-[0.25rem] text-base font-normal leading-[1.6] text-neutral-700 outline-none transition duration-200 ease-in-out focus:z-[3] focus:border-primary focus:text-neutral-700 focus:shadow-[inset_0_0_0_1px_rgb(59,113,202)] focus:outline-none dark:border-neutral-600 dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:focus:border-primary"
@@ -32,7 +41,7 @@
                             </div>
                         </span></a></li>
                 <li><a href="#" class="text-gray-500 hover:text-gray-900">
-                        <p class="mt-1">Log in</p>
+                        <p class="mt-1 ">Log in</p>
                     </a></li>
                 <li><a href="#" class="text-gray-500 hover:text-gray-900">
                         <p class="mt-1">Sign up</p>
@@ -42,121 +51,158 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="bg-gray-100 py-16 shadow-2xl ">
-        <div class="flex justify-around"><span class="ml-6 mr-3 ">
-                <h2 class="text-4xl font-bold mb-4">Book <u>Home Services</u> from the Best Beauty Parlours in your
+    <section class="bg-gray-100 py-8 md:py-16 shadow-2xl ">
+        <div class="md:flex md:justify-around"><span class="md:hidden "><img class=" shadow-2xl mx-4 w-96 rounded-2xl "
+            src="https://media.istockphoto.com/id/501398614/photo/face-skin-care-facial-hydro-microdermabrasion-peeling-treatment.jpg?s=612x612&w=0&k=20&c=8sB-63Okl1ZlF1aHNRtJb7aVzf3qCezOnphkgnW_shY="
+            alt="Parlour at home"></span><div class=" mt-8 md:mt-0 mx-4 md:ml-6 md:mr-3 ">
+                <h2 class=" text-2xl  md:text-4xl font-bold mb-4">Book <u>Home Services</u> from the Best Beauty Parlours in your
                     area.</h2>
-                <p class="text-gray-600 text-2xl mt-2 mb-6">Browse through our selection of top-rated beauty parlours
+                <p class="text-gray-600 text-xl md:text-2xl mt-2 mb-6">Browse through our selection of top-rated beauty parlours
                     and book your appointment today!</p><span class="flex justify-center ">
                     <a href="#parloursexplore"
-                        class="bg-purple-600 text-white py-2 px-4 rounded-2xl hover:bg-purple-700 text-xl ">Explore
+                        class="bg-purple-700 text-white py-2 px-4 rounded-2xl hover:bg-purple-800 text-xl shadow-xl ">Explore
                         Parlours</a></span>
-            </span><span class="mr-6"><img class="shadow-2xl rounded-2xl "
+                    </div><span class=" hidden md:block mr-6"><img class="shadow-2xl rounded-2xl "
                     src="https://media.istockphoto.com/id/501398614/photo/face-skin-care-facial-hydro-microdermabrasion-peeling-treatment.jpg?s=612x612&w=0&k=20&c=8sB-63Okl1ZlF1aHNRtJb7aVzf3qCezOnphkgnW_shY="
                     alt="Parlour at home"></span></div>
     </section>
 
     <!--Services-->
-    <section class=" py-16 ">
+    <section class="py-16 ">
         <div>
-            <h2 class=" text-4xl font-bold mb-8 mx-8 mb-8 "><a id="parloursexplore">Inspirations for your first
-                    booking...</a></h2>
+            <h2 class=" text-xl md:text-4xl font-bold mb-8 mx-4 md:mx-8 mb-8 "><a id="parloursexplore">Inspirations for your first
+                    appointment...</a></h2>
         </div>
         <div class="flex justify-around mt-6 "><span>
-                <div><img class=" rounded-2xl  shadow-2xl " width="250" src="haircolour.jpeg" alt="haircolor"></div>
-                <div class=" font-bold flex justify-center text-xl mt-4 ">Hair Care</div>
+                <div><img class=" rounded-2xl  shadow-2xl md:w-60 w-24 " src="Assets/Services/haircolour.jpeg"
+                        alt="haircolor"></div>
+                <div class=" font-bold flex justify-center text-xs md:text-xl mt-4 w-24 md:w-full ">Hair Care</div>
             </span><span>
-                <div><img class=" rounded-2xl shadow-2xl " width="250" src="facial.jpeg" alt="facial"></div>
-                <div class=" font-bold flex justify-center text-xl mt-4 ">Facials and Cleanups</div>
+                <div><img class=" rounded-2xl shadow-2xl md:w-60 w-24 " src="Assets/Services/facial.jpeg" alt="facial">
+                </div>
+                <div class=" font-bold flex justify-center text-xs md:text-xl mt-4 w-24 md:w-full px-6 md:px-0 ">Facials & Cleanups</div>
             </span><span>
-                <div><img class="  shadow-2xl rounded-2xl " width="250" src="manicure.jpeg" alt="Manicure"></div>
-                <div class=" font-bold flex justify-center text-xl mt-4 ">Manicure and Pedicure</div>
+                <div><img class="  shadow-2xl rounded-2xl md:w-60 w-24  " src="Assets/Services/manicure.jpeg"
+                        alt="Manicure"></div>
+                <div class=" font-bold flex justify-center text-xs md:text-xl mt-4 w-24 md:w-full px-6 md:px-0 ">Manicure & Pedicure</div>
             </span><span>
-                <div><img class=" rounded-2xl  shadow-2xl " width="250" src="henna.jpeg" alt="henna"></div>
-                <div class=" font-bold flex justify-center text-xl mt-4 ">Henna</div>
+                <div><img class=" rounded-2xl  shadow-2xl md:w-60 w-24  " src="Assets/Services/henna.jpeg" alt="henna">
+                </div>
+                <div class=" font-bold flex justify-center text-xs md:text-xl mt-4 w-24 md:w-full ">Henna</div>
             </span></div>
-        <div>
-            <h2 class=" text-4xl font-bold flex justify-center mt-10 "><a href="#search">Search for more</a></h2>
-        </div>
+        
     </section>
 
     <!--Parlours-->
     <section class=" bg-gray-100  py-16 ">
         <div>
-            <h2 class=" text-4xl font-bold mb-8 mx-8 "><a id="parloursexplore">Some of the best salons near you...</a>
+            <h2 class=" text-xl mx-4 md:text-4xl font-bold mb-8 md:mx-8 "><a id="parloursexplore">Some of the best salons near you...</a>
             </h2>
         </div>
         <div class="flex justify-around mt-6 "><span>
-                <div><img class=" rounded-2xl  shadow-2xl " width="250" src="madonna.jpeg" alt="madonnabeautysalon">
+                <div><img class=" rounded-2xl  shadow-2xl md:w-60 w-24 " src="Assets/Salons/madonna.jpeg"
+                        alt="madonnabeautysalon">
                 </div>
-                <div class=" font-bold flex justify-center text-xl mt-4 ">Madonna Beauty Salon</div>
+                <div class=" font-bold flex justify-center text-xs md:text-xl mt-4 w-24 md:w-full ">Madonna Beauty Salon</div>
             </span><span>
-                <div><img class=" rounded-2xl shadow-2xl " width="250" src="headman.jpeg" alt="the headman salon">
+                <div><img class=" rounded-2xl shadow-2xl md:w-60 w-24 " src="Assets/Salons/headman.jpeg"
+                        alt="the headman salon">
                 </div>
-                <div class=" font-bold flex justify-center text-xl mt-4 ">The Headman Unisex Salon</div>
+                <div class=" font-bold flex justify-center text-xs md:text-xl mt-4 w-24 md:w-full ">The Headman Unisex Salon</div>
             </span><span>
-                <div><img class="  shadow-2xl rounded-2xl " width="250" src="glamour.jpeg" alt="Glamour Beauty Salon">
+                <div><img class="  shadow-2xl rounded-2xl md:w-60 w-24 " src="Assets/Salons/glamour.jpeg"
+                        alt="Glamour Beauty Salon">
                 </div>
-                <div class=" font-bold flex justify-center text-xl mt-4 ">Glamour Beauty Salon</div>
+                <div class=" font-bold flex justify-center text-xs md:text-xl mt-4 w-24 md:w-full ">Glamour Beauty Salon</div>
             </span><span>
-                <div><img class=" rounded-2xl  shadow-2xl " width="250" src="silverine.jpeg"
+                <div><img class=" rounded-2xl  shadow-2xl md:w-60 w-24 " src="Assets/Salons/silverine.jpeg"
                         alt="Silverinebeautysalon"></div>
-                <div class=" font-bold flex justify-center text-xl mt-4 ">Silverine Beauty Salon</div>
+                <div class=" font-bold flex justify-center text-xs md:text-xl mt-4 w-24 md:w-full ">Silverine Beauty Salon</div>
             </span></div>
-        <div>
-            <h2 class=" text-4xl font-bold flex justify-center mt-10 "><a href="#search">Search for more</a></h2>
-        </div>
     </section>
     <!--Packages-->
     <section class=" py-16 ">
         <div>
-            <h2 class=" text-4xl font-bold mb-8 mx-8 "><a id="parloursexplore">Best Packages especially crafted for
+            <h2 class=" text-xl mx-4 md:text-4xl font-bold mb-8 md:mx-8 "><a id="parloursexplore">Best Packages crafted for
                     you...</a></h2>
         </div>
         <div class="flex justify-around mt-6 "><span>
-                <div><img class=" rounded-2xl  shadow-2xl " width="250" src="bride.jpeg" alt="Wedding special"></div>
-                <div class=" font-bold flex justify-center text-xl mt-4 ">Wedding Special</div>
+                <div><img class=" rounded-2xl  shadow-2xl w-24 md:w-60 " src="Assets/Packages/bride.jpeg"
+                        alt="Wedding special"></div>
+                <div class=" font-bold flex justify-center text-xs md:w-full w-24 md:text-xl mt-4 px-6 md:px-0 ">Wedding Special</div>
             </span><span>
-                <div><img class=" rounded-2xl shadow-2xl " width="250" src="wax.jpeg" alt="Wax and glow"></div>
-                <div class=" font-bold flex justify-center text-xl mt-4 ">Wax & glow</div>
+                <div><img class=" rounded-2xl shadow-2xl w-24 md:w-60 " src="Assets/Packages/wax.jpeg"
+                        alt="Wax and glow"></div>
+                <div class=" font-bold flex justify-center text-xs md:w-full w-24 md:text-xl mt-4 ">Wax & glow</div>
             </span><span>
-                <div><img class="  shadow-2xl rounded-2xl " width="250" src="massage.jpeg" alt="Massage"></div>
-                <div class=" font-bold flex justify-center text-xl mt-4 ">Head Massage & Hair Care</div>
+                <div><img class="  shadow-2xl rounded-2xl w-24 md:w-60 " src="Assets/Packages/massage.jpeg"
+                        alt="Massage"></div>
+                <div class=" font-bold flex justify-center text-xs md:w-full w-24 md:text-xl mt-4 ">Head Massage & Hair Care</div>
             </span><span>
-                <div><img class=" rounded-2xl  shadow-2xl " width="250" src="craft.jpeg" alt="customPackage"></div>
-                <div class=" font-bold flex justify-center text-xl mt-4 ">Custom Package</div>
+                <div><img class=" rounded-2xl  shadow-2xl w-24 md:w-60 " src="Assets/Packages/craft.jpeg"
+                        alt="customPackage"></div>
+                <div class=" font-bold flex justify-center text-xs md:w-full w-24 px-6 md:px-0 md:text-xl mt-4 ">Custom Package</div>
             </span></div>
-        <div>
-            <h2 class=" text-4xl font-bold flex justify-center mt-10 "><a href="#search">Search for more</a></h2>
-        </div>
+       
     </section>
-<!--Footer-->
-<section class=" py-16  bg-gray-100 ">
-    <h1 class="text-xl font-bold text-4xl mx-8 ">GlamHub</h1>
-    <div><ul class="mx-8 mt-8 " >
-        <li><a href="#" class="text-gray-500 hover:text-gray-900">
-            <p class="mt-1">ABOUT GLAMHUB</p>
-        </a></li>
-        <li><a href="#" class="text-gray-500 hover:text-gray-900">
-            <p class="mt-1">Who are we</p>
-        </a></li>
-        <li><a href="#" class="text-gray-500 hover:text-gray-900">
-            <p class="mt-1">Work with us</p>
-        </a></li>
-        <li><a href="#" class="text-gray-500 hover:text-gray-900">
-            <p class="mt-1">For Parlours</p>
-        </a></li>
-        <li><a href="#" class="text-gray-500 hover:text-gray-900">
-            <p class="mt-1">For Investors</p>
-        </a></li>
-        <li><a href="#" class="text-gray-500 hover:text-gray-900">
-            <p class="mt-1">Report Fraud</p>
-        </a></li>
-        <li><a href="#" class="text-gray-500 hover:text-gray-900">
-            <p class="mt-1">Contact us</p>
-        </a></li>
-    </ul></div><hr class="mt-6 mx-6 " ><div class=" mt-6 mx-6 text-gray-500 hover:text-gray-900" >By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2023 © GlamHub. All rights reserved.</div>
-</section>
+    <!--Search-->
+    <section class=" bg-gray-100  py-16 " >
+        <div>
+            <h2 class=" text-4xl font-bold flex justify-center  "><a href="#">Search for more</a></h2>
+        </div>
+        <div class="py-8 md:w-full w-auto md:mx-0 mx-4 flex justify-center " >
+            <a id="search" href="#"><span class="mb-3">
+            <div class="relative mb-4 flex w-full flex-wrap items-stretch">
+                <input type="search"
+                    class="relative m-0 -mr-0.5 block w-[1px] min-w-0 flex-auto rounded-l border border-solid border-neutral-300 bg-transparent bg-clip-padding px-3 py-[0.25rem] text-base font-normal leading-[1.6] text-neutral-700 outline-none transition duration-200 ease-in-out focus:z-[3] focus:border-primary focus:text-neutral-700 focus:shadow-[inset_0_0_0_1px_rgb(59,113,202)] focus:outline-none dark:border-neutral-600 dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:focus:border-primary"
+                    placeholder="Search for service" aria-label="Search"
+                    aria-describedby="button-addon3" />
+
+                <!--Search button-->
+                <button
+                    class="relative z-[2] rounded-r border-2 border-primary px-6 py-2 text-xs font-medium uppercase text-primary transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+                    type="button" id="button-addon3" data-te-ripple-init>
+                    Search
+                </button>
+            </div>
+        </span></a></div>
+    </section>
+
+    <!--Footer-->
+    <section class=" py-16  bg-purple-700 ">
+        <h1 class=" flex justify-center  text-gray-100 font-bold text-4xl mx-6 ">GlamHub</h1>
+        <div>
+            <ul class="mx-8 mt-8 md:text-xl ">
+                <div class=" flex justify-around " ><li><a href="#" class="text-gray-900 hover:text-gray-100">
+                        <p class="mt-1">ABOUT GLAMHUB</p>
+                    </a></li>
+                <li><a href="#" class="text-gray-900 hover:text-gray-100">
+                        <p class="mt-1">Who are we</p>
+                    </a></li></div><div class=" flex justify-around " >
+                <li><a href="#" class="text-gray-900 hover:text-gray-100">
+                        <p class="mt-1">Work with us</p>
+                    </a></li>
+                <li><a href="#" class="text-gray-900 hover:text-gray-100">
+                        <p class="mt-1">For Parlours</p>
+                    </a></li></div>
+                <div class=" flex justify-around " ><li><a href="#" class="text-gray-900 hover:text-gray-100">
+                        <p class="mt-1">For Investors</p>
+                    </a></li>
+                <li><a href="#" class="text-gray-900 hover:text-gray-100">
+                        <p class="mt-1">Report Fraud</p>
+                    </a></li></div><div class=" flex justify-around " >
+                <li><a href="#" class="text-gray-900 hover:text-gray-100">
+                        <p class="mt-1">Contact us</p>
+                    </a></li>
+                    <li><a href="#" class="text-gray-900 hover:text-gray-100">
+                        <p class="mt-1">Feedbacks</p>
+                    </a></li></div>
+            </ul>
+        </div>
+        <hr size="2" class="mt-6 mx-6 ">
+        <div class=" mx-8 md:mx-0 flex justify-center md:text-xl text-xs  mt-6 text-gray-100 hover:text-gray-900">All trademarks are properties of their
+            respective owners. 2023 © GlamHub. All rights reserved.</div>
+    </section>
 
 
 </body>
