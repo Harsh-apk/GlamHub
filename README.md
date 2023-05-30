@@ -5,6 +5,6 @@ Did all these things on one go from 18:30 hrs to 02:00 hrs with some small break
 This is just a MVP design version and the final prodcut might be different.
 Trying to create a SaaS product.
 
-Mail me if you are interested in working with me and u think that you can add some value to the product. mail : 2022umt1180@mnit.ac.in
+Mail me if you are interested in working with me and u think that you can add some value to the product. mail : work.glamhub@gmail.com
 
 Connect with me on Linkedin, link provided in profile...
