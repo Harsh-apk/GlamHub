@@ -13,6 +13,11 @@
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://glamhub.co/webstories/</loc>
+  <lastmod>2023-07-17T17:50:17+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
   <loc>https://glamhub.co/index.html</loc>
   <lastmod>2023-05-30T22:40:52+00:00</lastmod>
   <priority>0.80</priority>
