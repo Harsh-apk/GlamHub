@@ -2,7 +2,7 @@
 <html amp lang="en">
 
 <head>
-
+  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
   <style amp-custom>
     .font-bold {
       font-weight: 700;
@@ -156,7 +156,6 @@
 </head>
 
 <body>
-
   <!--Edit Title & Image Here-->
   <amp-story standalone title="Leica M11 Monochrom Review" publisher="Glamhub"
     publisher-logo-src="Assets/brand/glamhublogo.jpeg" poster-portrait-src="Story assets/thumbnail.png"
@@ -352,6 +351,21 @@
 
 
   </amp-story>
+  <amp-analytics type="googleanalytics" >
+    <script type="application/json">
+    {
+        "vars": {
+                    "GA4_MEASUREMENT_ID": "G-8G9L09RXSG",
+                    "GA4_ENDPOINT_HOSTNAME": "www.google-analytics.com",
+                    "DEFAULT_PAGEVIEW_ENABLED": true,    
+                    "GOOGLE_CONSENT_ENABLED": true,
+                    "WEBVITALS_TRACKING": true,
+                    "PERFORMANCE_TIMING_TRACKING": true,
+                    "SEND_DOUBLECLICK_BEACON": true
+        }
+    }
+    </script>
+  </amp-analytics>
 </body>
 
 </html>
