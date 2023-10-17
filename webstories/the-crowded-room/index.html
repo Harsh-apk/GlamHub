@@ -156,6 +156,24 @@
 </head>
 
 <body>
+  <amp-analytics type="googleanalytics">
+    <script type="application/json">
+      {
+        "vars": {
+          "account": "G-8G9L09RXSGY"
+        },
+        "triggers": {
+          "default pageview": {
+            "on": "visible",
+            "request": "pageview",
+            "vars": {
+              "title": "Name of the Article"
+            }
+          }
+        }
+      }
+      </script>
+    </amp-analytics>
   <!--Edit Title & Image Here-->
   <amp-story standalone title="Leica M11 Monochrom Review" publisher="Glamhub"
     publisher-logo-src="Assets/brand/glamhublogo.jpeg" poster-portrait-src="Story assets/thumbnail.png"
@@ -351,24 +369,6 @@
 
 
   </amp-story>
-  <amp-analytics type="googleanalytics">
-    <script type="application/json">
-      {
-        "vars": {
-          "account": "G-8G9L09RXSGY"
-        },
-        "triggers": {
-          "default pageview": {
-            "on": "visible",
-            "request": "pageview",
-            "vars": {
-              "title": "Name of the Article"
-            }
-          }
-        }
-      }
-      </script>
-    </amp-analytics>
     
 </body>
 
