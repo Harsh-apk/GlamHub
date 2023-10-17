@@ -351,21 +351,25 @@
 
 
   </amp-story>
-  <amp-analytics type="googleanalytics" >
+  <amp-analytics type="googleanalytics">
     <script type="application/json">
-    {
+      {
         "vars": {
-                    "GA4_MEASUREMENT_ID": "G-8G9L09RXSG",
-                    "GA4_ENDPOINT_HOSTNAME": "www.google-analytics.com",
-                    "DEFAULT_PAGEVIEW_ENABLED": true,    
-                    "GOOGLE_CONSENT_ENABLED": true,
-                    "WEBVITALS_TRACKING": true,
-                    "PERFORMANCE_TIMING_TRACKING": true,
-                    "SEND_DOUBLECLICK_BEACON": true
+          "account": "G-8G9L09RXSGY"
+        },
+        "triggers": {
+          "default pageview": {
+            "on": "visible",
+            "request": "pageview",
+            "vars": {
+              "title": "Name of the Article"
+            }
+          }
         }
-    }
-    </script>
-  </amp-analytics>
+      }
+      </script>
+    </amp-analytics>
+    
 </body>
 
 </html>
