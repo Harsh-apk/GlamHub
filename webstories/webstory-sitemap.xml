@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
 <loc>https://glamhub.co/webstories/</loc>
-<lastmod>2023-10-15T16:22:38+00:00</lastmod>
+<lastmod>2023-10-17T11:17:50+00:00</lastmod>
 <priority>1.00</priority>
 </url>
 <url>
 <loc>https://glamhub.co/webstories/index.html</loc>
-<lastmod>2023-10-15T16:22:38+00:00</lastmod>
+<lastmod>2023-10-17T11:17:50+00:00</lastmod>
 <priority>0.80</priority>
 </url>
 <url>
 <loc>https://glamhub.co/webstories/Oppenheimer/</loc>
-<lastmod>2023-10-15T16:22:38+00:00</lastmod>
+<lastmod>2023-10-01T09:07:57+00:00</lastmod>
 <priority>0.80</priority>
 </url>
 <url>
 <loc>https://glamhub.co/webstories/the-crowded-room/</loc>
-<lastmod>2023-10-15T16:22:38+00:00</lastmod>
+<lastmod>2023-10-01T09:07:57+00:00</lastmod>
 <priority>0.80</priority>
 </url>
 <url>
 <loc>https://glamhub.co/webstories/sonu-sood/</loc>
-<lastmod>2023-10-15T16:22:38+00:00</lastmod>
+<lastmod>2023-10-01T09:07:57+00:00</lastmod>
 <priority>0.80</priority>
 </url>
 <url>
 	<loc>https://glamhub.co/webstories/PoliticiansPlay/</loc>
-	<lastmod>2023-10-15T16:22:38+00:00</lastmod>
+	<lastmod>2023-10-01T09:07:57+00:00</lastmod>
 	<priority>0.80</priority>
 </url>
 <url>
 	<loc>https://glamhub.co/webstories/PorscheGT3/</loc>
-	<lastmod>2023-10-15T16:22:38+00:00</lastmod>
+	<lastmod>2023-10-01T09:07:57+00:00</lastmod>
 	<priority>0.80</priority>
 </url>
 <url>
@@ -43,6 +43,11 @@
 <url>
 	<loc>https://glamhub.co/webstories/CaptainMarvel/</loc>
 	<lastmod>2023-10-15T16:22:39+00:00</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://glamhub.co/webstories/Spider-Man2/</loc>
+	<lastmod>2023-10-17T11:17:50+00:00</lastmod>
 	<priority>0.80</priority>
 </url>
 </urlset>
