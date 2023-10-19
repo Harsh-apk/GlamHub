@@ -180,6 +180,8 @@
             }
         </style>
     </noscript>
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
 </head>
 
 <body>
@@ -187,7 +189,18 @@
     <!--Edit Title , Image and Background Music Here-->
     <amp-story standalone title="Sonu Sood in Multiverse" publisher="glamhub.co"
         publisher-logo-src="https://glamhub.co/Assets/brand/glamhublogo.jpeg" poster-portrait-src="assets/sonu-sood-1.jpeg"
-        background-audio="assets/sonu_sood.mp3">
+        background-audio="assets/sonu_sood.mp3"><amp-analytics type="gtag" data-credentials="include">
+            <script type="application/json">
+            {
+              "vars" : {
+                "gtag_id": "G-8G9L09RXSG",
+                "config" : {
+                  "G-8G9L09RXSG": { "groups": "default" }
+                }
+              }
+            }
+            </script>
+            </amp-analytics>
 
 
         <!--11111111111111-->

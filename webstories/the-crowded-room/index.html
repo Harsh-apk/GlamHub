@@ -152,13 +152,26 @@
       }
     </style>
   </noscript>
+  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
 </head>
 
 <body>
   <!--Edit Title & Image Here-->
   <amp-story standalone title="The Crowded Room : Tom Holland's Controversy" publisher="Glamhub"
     publisher-logo-src="https://glamhub.co/Assets/brand/glamhublogo.jpeg" poster-portrait-src="Story assets/thumbnail.png"
-   >
+   ><amp-analytics type="gtag" data-credentials="include">
+    <script type="application/json">
+    {
+      "vars" : {
+        "gtag_id": "G-8G9L09RXSG",
+        "config" : {
+          "G-8G9L09RXSG": { "groups": "default" }
+        }
+      }
+    }
+    </script>
+    </amp-analytics>
 
 
 

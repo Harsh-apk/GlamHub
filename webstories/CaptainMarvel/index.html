@@ -183,6 +183,8 @@
             }
         </style>
     </noscript>
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
 </head>
 
 
@@ -191,7 +193,18 @@
     
     <amp-story standalone title="Brie Larson as Captain Marvel: 7 Stunning Images" publisher="Glamhub"
         publisher-logo-src="https://glamhub.co/Assets/brand/glamhublogo.jpeg" poster-portrait-src="assets/1.jpeg"
-        >
+        ><amp-analytics type="gtag" data-credentials="include">
+            <script type="application/json">
+            {
+              "vars" : {
+                "gtag_id": "G-8G9L09RXSG",
+                "config" : {
+                  "G-8G9L09RXSG": { "groups": "default" }
+                }
+              }
+            }
+            </script>
+            </amp-analytics>
         
 
 <amp-story-page id="1.jpeg" auto-advance-after="5s" >
