@@ -184,8 +184,7 @@
         </style>
     </noscript>
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
-    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script></head>
-
+    <script async custom-element="amp-story-auto-ads" src="https://cdn.ampproject.org/v0/amp-story-auto-ads-0.1.js"></script>
 
 <body>
 
@@ -204,14 +203,17 @@
               }
             }
             </script>
-            </amp-analytics> <amp-story-auto-ads><amp-ad width="100vw" height="320"
-                type="adsense"
-                data-ad-client="ca-pub-3174138383719062"
-                data-ad-slot="5342292176"
-                data-auto-format="rspv"
-                data-full-width="">
-             <div overflow=""></div>
-           </amp-ad></amp-story-auto-ads>
+            </amp-analytics> <amp-story-auto-ads>
+                <script type="application/json">
+                 {
+                  "ad-attributes": {
+                   "type": "adsense",
+                   "data-ad-client": "ca-pub-3174138383719062",
+                   "data-ad-slot": "5342292176"
+                  }
+                 }
+                 </script>
+                </amp-story-auto-ads>
         
 
 <amp-story-page id="1.jpeg" auto-advance-after="5s" >
